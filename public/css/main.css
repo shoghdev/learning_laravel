@@ -1,0 +1,21 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
