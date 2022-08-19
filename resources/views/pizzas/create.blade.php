@@ -5,7 +5,7 @@
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 flex-column">
                 <h1>Create a new pizza</h1>
-                <form class="flex flex-column" method="POST" action="/pizzas">
+                <form class="flex flex-column" method="POST" action="{{ route('pizzas.index') }}">
                     @csrf
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name">
