@@ -1,5 +1,5 @@
-@extends('layouts.layout')
-@section('contents')
+@extends('layouts.app')
+@section('content')
     <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 flex-column">
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 flex-column">
@@ -15,7 +15,7 @@
                 <form action="/pizzas/{{ $pizza->id }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button>Complete Order</button>
+                    <button class="button">Complete Order</button>
                 </form>
             </div>
             <a href="/pizzas" class="back"><- Back to all pizzas</a>

@@ -21,7 +21,7 @@
                     The North's best pizzas
                 </h1>
                 <p class="mssg"> {{ session('mssg') }} </p>
-                <a href="/pizzas/create" class="underline">Order a pizza</a>
+                <a href="/pizzas/create" class="button">Order a pizza</a>
             </div>
         </div>
 @endsection
